@@ -1,5 +1,5 @@
 all:
-
+	make chapter1 chapter1-run
 chapter1:
 		g++ Chapter1/Question1.cpp -o Executables/Q1-1
 		g++ Chapter1/Question2.cpp -o Executables/Q1-2
