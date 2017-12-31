@@ -6,6 +6,7 @@
  *    What if you cannot use additional data structures?
  *********************************************************************************/
 #include <iostream>
+#include <string>
 
 using namespace std;
 
