@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
   cout << isUnique("") << endl;
   cout << isUnique("abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+-=[]{};':\"<>,.?/\\|~` ") << endl;
   cout << isUnique("The quick brown fox jumped over the lazy dogs") << endl;
-  return 1;
+  return 0;
 }
 
 bool isUnique(string myString) {

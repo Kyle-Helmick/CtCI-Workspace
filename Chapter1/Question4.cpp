@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
   cout << palindromePermutation("abcde") << endl;
   cout << palindromePermutation("aabbcdbbaa") << endl;
   cout << palindromePermutation("") << endl;
-  return 1;
+  return 0;
 }
 
 bool palindromePermutation(string str) {

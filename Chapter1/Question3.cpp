@@ -16,11 +16,11 @@ using namespace std;
 string URLify(string, int);
 
 int main(int argc, char* argv[]) {
-  cout << "Result: " << URLify("Mr John Smith    ", 13) << endl;
-  cout << "Result: " << URLify("KyleHelmick", 11) << endl;
-  cout << "Result: " << URLify("         ", 3) << endl;
-  cout << "Result: " << URLify("", 0) << endl;
-  return 1;
+  cout << URLify("Mr John Smith    ", 13) << endl;
+  cout << URLify("KyleHelmick", 11) << endl;
+  cout << URLify("         ", 3) << endl;
+  cout << URLify("", 0) << endl;
+  return 0;
 }
 
 string URLify(string str, int trueLength) {

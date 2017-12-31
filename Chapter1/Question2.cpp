@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
   cout << checkPermutation("", "1") << endl;
   cout << checkPermutation("", "") << endl;
   cout << checkPermutation("CaseSensitive", "casesensitive") << endl;
-  return 1;
+  return 0;
 }
 
 bool checkPermutation(string str1, string str2) {

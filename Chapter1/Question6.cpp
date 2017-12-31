@@ -18,12 +18,12 @@ string stringCompression(string);
 string convertNumber(int);
 
 int main(int argc, char* argv[]) {
-  cout << "Result: " << stringCompression("aabcccccaaa") << endl;
-  cout << "Result: " << stringCompression("abcdef") << endl;
-  cout << "Result: " << stringCompression("aaaaaaaaaaaaaabiiiiiiiiiuouiiamnnnm") << endl;
-  cout << "Result: " << stringCompression("") << endl;
-  cout << "Result: " << stringCompression("a") << endl;
-  return 1;
+  cout << stringCompression("aabcccccaaa") << endl;
+  cout << stringCompression("abcdef") << endl;
+  cout << stringCompression("aaaaaaaaaaaaaabiiiiiiiiiuouiiamnnnm") << endl;
+  cout << stringCompression("") << endl;
+  cout << stringCompression("a") << endl;
+  return 0;
 }
 
 string stringCompression(string str) {

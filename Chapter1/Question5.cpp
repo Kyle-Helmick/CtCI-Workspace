@@ -14,14 +14,14 @@ using namespace std;
 bool oneAway(string, string);
 
 int main(int argc, char* argv[]) {
-  cout << "Result: " << oneAway("pale", "ple") << endl;
-  cout << "Result: " << oneAway("pales", "pale") << endl;
-  cout << "Result: " << oneAway("pale", "bale") << endl;
-  cout << "Result: " << oneAway("pale", "bake") << endl;
-  cout << "Result: " << oneAway("apples", "one") << endl;
-  cout << "Result: " << oneAway("", "") << endl;
-  cout << "Result: " << oneAway("Iamthesame", "Iamthesame") << endl;
-  return 1;
+  cout << oneAway("pale", "ple") << endl;
+  cout << oneAway("pales", "pale") << endl;
+  cout << oneAway("pale", "bale") << endl;
+  cout << oneAway("pale", "bake") << endl;
+  cout << oneAway("apples", "one") << endl;
+  cout << oneAway("", "") << endl;
+  cout << oneAway("Iamthesame", "Iamthesame") << endl;
+  return 0;
 }
 
 bool oneAway(string str1, string str2) {
