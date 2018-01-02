@@ -1,0 +1,8 @@
+/*********************************************************************************
+ * Kyle Helmick
+ * January, 2018
+ * Question 1:
+ *    Describe how you could use a single array to implement three stacks.
+ *********************************************************************************/
+
+ I would have an array of size three made out of stack objects. You could choose a stack by indexing the array.
