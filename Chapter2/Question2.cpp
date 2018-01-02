@@ -44,6 +44,8 @@ int main(int argc, char* argv[]) {
   cout << "12th to last is: " << kthToLast(12, head) << endl;
   cout << "-1st to last is: " << kthToLast(-1, head) << endl;
   cout << "20th to last is: " << kthToLast(20, head) << endl;
+
+  return 0;
 }
 
 int kthToLast(int kth, node* head) {

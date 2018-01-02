@@ -53,6 +53,7 @@ int main(int argc, char* argv[]) {
 
   printList(head);
 
+  return 0;
 }
 
 void deleteMiddleNode(node* start) {
