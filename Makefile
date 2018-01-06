@@ -1,6 +1,7 @@
 main:
 		make clean
-
+		mkdir Executables
+		mkdir Executables/Chapter_Misc
 		mkdir Executables/Chapter1
 		mkdir Executables/Chapter2
 		mkdir Executables/Chapter3
@@ -20,4 +21,4 @@ build-all: $(patsubst %.cpp, %.out, $(wildcard Chapter*/*.cpp))
 		./Executables/$@
 
 clean:
-		rm -rf Executables/Chapter*
+		rm -rf Executables
